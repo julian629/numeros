@@ -38,6 +38,109 @@ Si n1
 			Escribir "El orden de numeros es: " N5,N4,N3,N2,N1
 		FinSi
 	Fin Si
+	
+	
+	
+	Proceso sin_titulo
+Escribir "ingresar los 4 numeros"
+Leer n1, n2, n3, n4
+si n1<=n2 y n2<=n3 y n3<=n4 entonces
+Escribir n1 "," n2 "," n3 "," n4
+Sino
+si n1<=n2 y n2<=n4 y n4<=n3 entonces
+Escribir n1 "," n2 "," n4 "," n3
+Sino
+si n1<=n3 y n3<=n2 y n2<=n4 entonces
+Escribir n1 "," n3 "," n2 "," n4
+sino
+si n1<=n4 y n4<=n2 y n2<=n3 Entonces
+Escribir n1 "," n4 "," n2 "," n3
+Sino
+si n1<=n3 y n3<=n4 y n4<=n2 Entonces
+Escribir n1 "," n3 "," n4 "," n2
+Sino
+si n1<=n4 y n4<=n3 y n3<=n2 Entonces
+Escribir n1 "," n4 "," n3 "," n2
+Sino
+si n2<=n1 y n1<=n3 y n3<=n4 entonces
+Escribir n2 "," n1 "," n3 "," n4
+Sino
+si n2<=n1 y n1 <=n4 y n4<=n3 Entonces
+Escribir n2 "," n1 "," n4 "," n3
+Sino
+si n3<=n1 y n1<=n2 y n2<=n4 Entonces
+Escribir n3 "," n1 "," n2 "," n4
+Sino
+si n4<=n1 y n1<=n2 y n2<=n3 Entonces
+Escribir n4 "," n1 "," n2 "," n3
+Sino
+si n3<=n1 y n1<=n4 y n4<=n2 Entonces
+Escribir n3 "," n1 "," n4 "," n2
+Sino
+si n4<=n1 y n1<=n3 y n3<=n2 Entonces
+Escribir n4 "," n1 "," n3 "," n2
+Sino
+si n2<=n3 y n3<=n1 y n1<=n4 Entonces
+Escribir n2 "," n3 "," n1 "," n4
+Sino
+si n2<=n4 y n4<=n1 y n1<=n3 Entonces
+Escribir n2 "," n4 "," n1 "," n3
+Sino
+si n3<=n2 y n2<=n1 y n1<=n4 Entonces
+Escribir n3 "," n2 "," n1 "," n4
+Sino
+si n4<=n2 y n2<=n1 y n1<=n3 Entonces
+Escribir n4 "," n2 "," n1 "," n3
+Sino
+si n3<=n4 y n4<=n1 y n1<=n2 Entonces
+Escribir n3 "," n4 "," n1 "," n2
+sino
+si n4<=n3 y n3<=n1 y n1<=n2 Entonces
+Escribir n4 "," n3 "," n1 "," n2
+Sino
+si n2<=n3 y n3<=n4 y n4<=n1 Entonces
+Escribir n2 "," n3 "," n4 "," n1
+Sino
+si n2<=n4 y n4<=n3 y n3<=n1 Entonces
+Escribir n2 "," n4 "," n3 "," n1
+Sino
+si n4<=n2 y n2<=n3 y n3<=n1 Entonces
+Escribir n4 "," n2 "," n3 "," n1
+Sino
+si n3<=n2 y n2<=n4 y n4<=n1 Entonces
+Escribir n3 "," n2 "," n4 "," n1
+Sino
+si n3<=n4 y n4<=n2 y n2<=n1 Entonces
+Escribir n3 "," n4 "," n2 "," n1
+Sino
+si n4<=n3 y n3<=n2 y n2<=n1 Entonces
+Escribir n4 "," n3 "," n2 "," n1
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+
+FinProceso
 
 
 
