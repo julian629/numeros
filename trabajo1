@@ -1,2 +1,3 @@
-Hola mundo
-ñ
+"Programa para ordenar los numeros ingresados de mayor a menor"
+"Por favor ingrese cinco numeros"
+Leer n1,n2,n3,n4,n5
