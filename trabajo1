@@ -1,43 +1,24 @@
-"Programa para ordenar los numeros ingresados de mayor a menor"
-"Por favor ingrese cinco numeros"
-Leer n1,n2,n3,n4,n5
-Si n1
-
-	Si (N1>N2) Y (N1>N3) Y (N1>N4) Y (N1>N5) Entonces
-		Escribir "El orden de numeros es: " N1,N2,N3,N4,N5
-		Si (N2>N1) Y (N2>N3) Y (N2>N4) Y (N2>N5)
-			Escribir "El orden de numeros es: " N2,N1,N3,N4,N5
-			Si (N3>N1) Y (N3>N2) Y (N3>N4) Y (N3>N5)
-				Escribir "El orden de numeros es: " N3,N1,N2,N4,N5
-				si (N4>N1) Y (N4>N2) Y (N4>N3) Y (N4>N5)
-					Escribir "El orden de numeros es: " N4,N1,N2,N3,N5
-					si (N5>N1) Y (N5>N2) Y (N5>N3) Y (N5>N4)
-						Escribir "El orden de numeros es: " N5,N1,N2,N3,N4
-					sino 
-						si (N5<N1) Y (N5<N2) Y (N5<N3) Y (N5<N4)
-							Escribir "El numero menor es: " N5
-						FinSi
-					FinSi
-				Sino
-					si (N4<N1) Y (N4<N2) Y (N4<N3) Y (N4<N5)
-						Escribir "El numero menor es: " N4
-					FinSi
-				FinSi
-			sino 
-				si (N3<N1) Y (N3<N2) Y (N3<N4) Y (N3<N5)
-					Escribir "El numero menor es: " N3
-				FinSi
+Proceso Ordenar_numeros
+	Dimension  v(5)
+	Para i<-1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Por favor ingrese un numero: ",i
+		Leer  v(i)
+	Fin Para
+	Escribir "Los numeros ingresados de manera descendente son:"
+	Para i<-1 Hasta 5 Con Paso 1 Hacer
+		Para j<-i+1 Hasta 5 Con Paso 1 Hacer
+			Si v(i)<v(j) Entonces
+				temp<-v(i)
+				v(i)<-v(j)
+				v(j)<-temp
 			FinSi
-		Sino 
-			Si(N2<N1) Y (N2<N3) Y (N2<N4) Y (N2<N5)
-				Escribir "El numero menor es: " N2
-			FinSi
-		FinSi
-	Sino
-		Si (N1<N2) Y (N1<N3) Y (N1<N4) Y (N1<N5)
-			Escribir "El orden de numeros es: " N5,N4,N3,N2,N1
-		FinSi
-	Fin Si
+		Fin Para
+	Fin Para
+	Para c<-1 Hasta 5 Con Paso 1 Hacer
+		Escribir  v(c)
+	Fin Para
+FinProceso
+	
 	
 	
 	
